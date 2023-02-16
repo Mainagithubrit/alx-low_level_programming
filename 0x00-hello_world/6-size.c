@@ -2,7 +2,7 @@
 /** 
  * main - prints various sizes computer types run on
  * Return: 0
- */
+*/
 int main(void)
 { 
 	char a;
