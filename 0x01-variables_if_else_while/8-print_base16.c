@@ -12,7 +12,7 @@ ch = 'a';
 x = 0;
 while 
 (x < 10)
-putchar(x + '0');
+putchar((x % 10) + '0');
 x++;
 while 
 (ch <= 'f')
