@@ -11,11 +11,9 @@ int i;
 
 for (i = 0; i <= 10 ; i++)
 {
-_putchar(letter);
 
 for (letter = 'a'; letter <= 'z'; letter++)
-
+_putchar(letter);
 _putchar('\n');
-
 }
 }
