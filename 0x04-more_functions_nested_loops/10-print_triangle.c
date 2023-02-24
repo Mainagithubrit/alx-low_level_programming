@@ -24,6 +24,7 @@ for (z = 0; z <= y; z++)
 {
 _putchar('#');
 }
+_putchar('\n');
 }
 }
 }
