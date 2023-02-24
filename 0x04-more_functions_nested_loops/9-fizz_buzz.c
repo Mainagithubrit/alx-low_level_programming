@@ -17,15 +17,15 @@ char ab[] = "FizzBuzz";
 for (x = 1; x <= 100; x++)
 {
 if (x == 100)
-printf("%s", b);
+printf("%s ", b);
 else if ((x % 3 == 0) && (x % 5 == 0))
-printf("%s", ab);
+printf("%s ", ab);
 else if (x % 3 == 0)
-printf("%s", a);
+printf("%s ", a);
 else if (x % 5 == 0)
-printf("%s", b);
+printf("%s ", b);
 else
-printf("%d", x);
+printf("%d ", x);
 }
 printf("\n");
 return (0);
