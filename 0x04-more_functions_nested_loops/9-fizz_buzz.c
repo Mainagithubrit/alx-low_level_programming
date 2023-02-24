@@ -11,23 +11,29 @@
 int main(void)
 {
 int x;
-char a[] = "Fizz";
-char b[] = "Buzz";
-char ab[] = "FizzBuzz";
-
 for (x = 1; x <= 100; x++)
 {
-if (x == 100)
-printf("%s ", b);
-else if ((x % 3 == 0) && (x % 5 == 0))
-printf("%s ", ab);
-else if (x % 3 == 0)
-printf("%s ", a);
-else if (x % 5 == 0)
-printf("%s ", b);
-else
+if (x % 3 == 0 && x % 5 != 0)
+{
+printf("Fizz");
+}
+else if (x % 5 == 0 && x % 3 != 0)
+{
+printf("Buzz");
+}
+else if (x % 3 == 0 && x % 5 == 0)
+{
+printf("FizzBuzz");
+}
+else if  (x == 1)
+{
 printf("%d ", x);
 }
-printf("\n");
+else
+{
+printf("%d ", x);
+}
+}
+printf("%d ", x);
 return (0);
 }
