@@ -11,9 +11,9 @@ int i;
 int j;
 char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 char datarot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-for (i = 0; n[i] != '0'; i++)
+for (i = 0; n[i] != '\0'; i++)
 {
-for (j = 0; j < 52; j++)
+for (j = 0; data1[j] != '\0'; j++)
 {
 if (n[i] == data1[j])
 {
