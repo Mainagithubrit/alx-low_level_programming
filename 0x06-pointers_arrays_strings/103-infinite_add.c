@@ -55,7 +55,7 @@ temp_tot = val1 + val2 + overflow;
 if (temp_tot >= 10)
 overflow = 1;
 else
-overflow = 1;
+overflow = 0;
 if (digits >= (size_r - 1))
 return (0);
 *(r + digits) = (temp_tot % 10) + '0';
