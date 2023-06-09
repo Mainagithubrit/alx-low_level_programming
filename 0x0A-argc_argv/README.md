@@ -1,3 +1,5 @@
+0x0A. C - argc, argv
+
 In this project there are 5 tasks and one advanced which include:
 
 0. It ain't what they call you, it's what you answer to - a program that prints its name, followed by a new line
