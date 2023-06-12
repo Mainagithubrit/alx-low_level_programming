@@ -15,13 +15,15 @@ int size, i;
 char *ptr;
 if (str == NULL)
 return (NULL);
-for (size = 0; str[size] != '\0'; size++)
-ptr = (char *)malloc((size + 1) * sizeof(char));
+
+size = 0;
+while (str[size] != '\0')
+size++;
+ptr = malloc(sizeof(char) * (size + 1));
 
 if (ptr == NULL)
 return (NULL);
-for (i = 0; str[i] != '\0'; i++)
+for (i = 0; str[i]; i++)
 ptr[i] = str[i];
-ptr[i] = '\0';
 return (ptr);
 }
