@@ -8,5 +8,8 @@ void *_calloc(unsigned int nmemb, unsigned int size);
 int *array_range(int min, int max);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 int main(int argc, char *argv[]);
-
+void init(char *str, int l);
+int check_for_digits(char **av);
+char *mul(char n, char *num, int num_index, char *dest, int dest_index);
+void _print(char *str, int l);
 #endif
