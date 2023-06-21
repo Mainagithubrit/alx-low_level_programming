@@ -7,10 +7,10 @@ int op_div(int a, int b);
 int op_mod(int a, int b);
 
 /**
- * op_add - a function that adds two numbers
+ * op_add - Returns the sum of two numbers
  * @a: the first integer
  * @b: the second integer
- * Return; 0
+ * Return: 0
  */
 
 int op_add(int a, int b)
@@ -20,10 +20,10 @@ return (a + b);
 
 
 /**
- * op_sub - a function that subtracts two numbers
+ * op_sub - Returns the difference of two numbers
  * @a: the first integer
  * @b: the second integer
- * Return; 0
+ * Return: 0
  */
 
 int op_sub(int a, int b)
@@ -32,10 +32,10 @@ return (a - b);
 }
 
 /**
- * op_mul - a function that multipliess two numbers
+ * op_mul - Returns the product of two numbers
  * @a: the first integer
  * @b: the second integer
- * Return; 0
+ * Return: 0
  */
 
 int op_mul(int a, int b)
@@ -44,10 +44,10 @@ return (a * b);
 }
 
 /**
- * op_div - a function that divides two numbers
+ * op_div - Returns the division of two numbers
  * @a: the first integer
  * @b: the second integer
- * Return; 0
+ * Return: 0
  */
 
 int op_div(int a, int b)
@@ -56,10 +56,10 @@ return (a / b);
 }
 
 /**
- * op_mod - a function that returns the reminder of two numbers
+ * op_mod - Returns the reminder of two numbers
  * @a: the first integer
  * @b: the second integer
- * Return; 0
+ * Return: 0
  */
 
 int op_mod(int a, int b)
