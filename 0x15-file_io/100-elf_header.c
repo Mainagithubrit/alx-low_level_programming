@@ -151,7 +151,7 @@ void osabi(unsigned char *e_ident)
 		printf("UNIX - NetBSD\n");
 		break;
 	case ELFOSABI_LINUX:
-		printf("UNIX - linux\n");
+		printf("UNIX - Linux\n");
 		break;
 	case ELFOSABI_SOLARIS:
 		printf("UNIX - Solaris\n");
@@ -160,16 +160,16 @@ void osabi(unsigned char *e_ident)
 		printf("UNIX - IRIX\n");
 		break;
 	case ELFOSABI_FREEBSD:
-		printf("UNIX - freeBSD\n");
+		printf("UNIX - FreeBSD\n");
 		break;
 	case ELFOSABI_TRU64:
 		printf("UNIX - TRU64\n");
 		break;
 	case ELFOSABI_ARM:
-		printf("ARN\n");
+		printf("ARM\n");
 		break;
 	case ELFOSABI_STANDALONE:
-		printf("Standalone APP\n");
+		printf("Standalone App\n");
 		break;
 	default:
 		printf("<unknown: %x>\n", e_ident[EI_OSABI]);
@@ -214,7 +214,7 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
 		printf("DYN (Shared object file)\n");
 		break;
 	case ET_CORE:
-		printf("CORE (core file)\n");
+		printf("CORE (Core file)\n");
 		break;
 	default:
 		printf("<unknown: %x>\n", e_type);
